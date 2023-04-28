@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="soce\main.cpp">
+      <Filter>winmain</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\app.cpp">
+      <Filter>directry_1</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\playScene.cpp">
+      <Filter>directry_2</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\titleScene.cpp">
+      <Filter>directry_2</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\enemies.cpp">
+      <Filter>directry_3</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\player.cpp">
+      <Filter>directry_3</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\score.cpp">
+      <Filter>directry_3</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\stones.cpp">
+      <Filter>directry_3</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\common.cpp">
+      <Filter>directry_4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="soce\config.h">
+      <Filter>winmain</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\app.h">
+      <Filter>directry_1</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\playScene.h">
+      <Filter>directry_2</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\titleScene.h">
+      <Filter>directry_2</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\enemies.h">
+      <Filter>directry_3</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\player.h">
+      <Filter>directry_3</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\score.h">
+      <Filter>directry_3</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\stones.h">
+      <Filter>directry_3</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\common.h">
+      <Filter>directry_4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="winmain">
+      <UniqueIdentifier>{f46ea553-3736-4231-8df1-7ad48a636bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directry_1">
+      <UniqueIdentifier>{5462bddc-6518-4173-b9bd-1744e22bfc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directry_2">
+      <UniqueIdentifier>{ca772de0-3cd4-42f7-877b-649d37910740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directry_3">
+      <UniqueIdentifier>{40e83859-6462-4702-a7e7-de47f81d471d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directry_4">
+      <UniqueIdentifier>{1f6e4979-30c5-4714-9617-c62e231f1458}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
