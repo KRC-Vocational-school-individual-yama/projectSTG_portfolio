@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="soce\main.cpp">
+    <ClCompile Include="source\main.cpp">
       <Filter>winmain</Filter>
     </ClCompile>
-    <ClCompile Include="soce\app.cpp">
+    <ClCompile Include="source\app.cpp">
       <Filter>directry_1</Filter>
     </ClCompile>
-    <ClCompile Include="soce\playScene.cpp">
+    <ClCompile Include="source\playScene.cpp">
       <Filter>directry_2</Filter>
     </ClCompile>
-    <ClCompile Include="soce\titleScene.cpp">
+    <ClCompile Include="source\titleScene.cpp">
       <Filter>directry_2</Filter>
     </ClCompile>
-    <ClCompile Include="soce\enemies.cpp">
-      <Filter>directry_3</Filter>
-    </ClCompile>
-    <ClCompile Include="soce\player.cpp">
-      <Filter>directry_3</Filter>
-    </ClCompile>
-    <ClCompile Include="soce\score.cpp">
-      <Filter>directry_3</Filter>
-    </ClCompile>
-    <ClCompile Include="soce\stones.cpp">
-      <Filter>directry_3</Filter>
-    </ClCompile>
-    <ClCompile Include="soce\common.cpp">
+    <ClCompile Include="source\common.cpp">
       <Filter>directry_4</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enemies.cpp">
+      <Filter>directry_3</Filter>
+    </ClCompile>
+    <ClCompile Include="source\player.cpp">
+      <Filter>directry_3</Filter>
+    </ClCompile>
+    <ClCompile Include="source\score.cpp">
+      <Filter>directry_3</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stones.cpp">
+      <Filter>directry_3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="soce\config.h">
+    <ClInclude Include="source\config.h">
       <Filter>winmain</Filter>
     </ClInclude>
-    <ClInclude Include="soce\app.h">
+    <ClInclude Include="source\app.h">
       <Filter>directry_1</Filter>
     </ClInclude>
-    <ClInclude Include="soce\playScene.h">
+    <ClInclude Include="source\playScene.h">
       <Filter>directry_2</Filter>
     </ClInclude>
-    <ClInclude Include="soce\titleScene.h">
+    <ClInclude Include="source\titleScene.h">
       <Filter>directry_2</Filter>
     </ClInclude>
-    <ClInclude Include="soce\enemies.h">
-      <Filter>directry_3</Filter>
-    </ClInclude>
-    <ClInclude Include="soce\player.h">
-      <Filter>directry_3</Filter>
-    </ClInclude>
-    <ClInclude Include="soce\score.h">
-      <Filter>directry_3</Filter>
-    </ClInclude>
-    <ClInclude Include="soce\stones.h">
-      <Filter>directry_3</Filter>
-    </ClInclude>
-    <ClInclude Include="soce\common.h">
+    <ClInclude Include="source\common.h">
       <Filter>directry_4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enemies.h">
+      <Filter>directry_3</Filter>
+    </ClInclude>
+    <ClInclude Include="source\player.h">
+      <Filter>directry_3</Filter>
+    </ClInclude>
+    <ClInclude Include="source\score.h">
+      <Filter>directry_3</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stones.h">
+      <Filter>directry_3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
